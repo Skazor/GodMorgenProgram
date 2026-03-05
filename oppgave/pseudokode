@@ -1,0 +1,18 @@
+/* - Be brukeren skrive inn Navn
+   - navnet blir lest
+   - Hent nåværende dato og klokkeslett, finn ut hvilken del av dagen det er (morgen, ettermiddag eller kveld)
+   - velg riktig hilsen og skriv den ut til brukeren
+   - SKRIV "Navn: "
+   - LES navn
+   - HVIS navn er tom eller kun whitespace, navn = "person"
+   - nåværendeTid : hent dagens dato og klokkeslett
+     time : nåværendeTid.time 
+   - HVIS time er mellom 6 og 11 
+       tidPåDagen : "morgen"
+     ELLER HVIS time er mellom 12 og 17 
+       tidPåDagen : "ettermiddag"
+     ANNET
+       tidPåDagen : "kveld"
+   - hilsen hent hilsen fra tabell med nøkkel = tidPåDagen
+   - SKRIV hilsen + ", " + navn + "!"
+    */
